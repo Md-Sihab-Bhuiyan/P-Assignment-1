@@ -13,17 +13,26 @@
 
 .background_image_1 {
     background-image: url('../assets/Hero-bg.png');
+    max-width: ;
     text-align: center;
+    margin-bottom: 150px;
+    padding-bottom: 44px;
+    padding-top: 26px;
+}
 
+.second_page{
+    margin-bottom: 150px;
 }
 
 .sec_p {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .banner {
    display: flex;
-   gap: 20px;
+   margin: 20px 150px 0px 140px;
+   gap: 40px;
 }
 
 .c1 {
@@ -45,13 +54,16 @@
 }
 
 
-.third_p {
+.third_page {
     text-align: center;
+    margin: 20px 150px 0px 140px;
+    margin-bottom: 150px;
 }
 
-.fourth_p {
+.fourth_page {
     text-align: center;
     gap: 40px;
+    margin: 20px 150px 150px 140px;
 }
 
 .fourth_target {
@@ -60,16 +72,25 @@
     font-size: small;
     justify-content: space-around;
     gap: 20px;
+    
 }   
 
-.background_image_2 {
+.background_image_2{
     background-image: url('../assets/handshake.jpg');
     background-position: center;
+    margin: 20px 150px 50px 140px;
+    border-radius: 10px;
+}
+
+.bg_image2_para{
     color: white;
     text-align: center;
+    padding: 100px;
 }
 
 .footer_sec{
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    margin: 20px 150px 150px 140px;
 }
