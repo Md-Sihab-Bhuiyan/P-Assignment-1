@@ -73,7 +73,7 @@
     
 }   
 
-.background_image_2{
+.bg_img_2{
     background-image: linear-gradient(90.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
     url('../assets/handshake.jpg');
     border-radius: 16px;
@@ -82,11 +82,15 @@
     background-repeat: no-repeat;
 }
 
-.bg_image2_para{
+.bg_img_2 .img2_para{ 
     color: white;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 100px;
-}
+} 
+
 
 .footer_sec{
     display: flex;
