@@ -74,9 +74,6 @@
     gap: 20px;  
 }   
 
-.ft_last line{
-    align-items: flex-start;
-}
 
 .bg_img_2{
     background-image: linear-gradient(90.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
